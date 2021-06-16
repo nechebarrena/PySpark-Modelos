@@ -31,5 +31,7 @@ sparkDF=spark.createDataFrame(pd.DataFrame(X))
 sparkDF.printSchema()
 sparkDF.show()
 
-
+sparkDF=spark.createDataFrame(pd.DataFrame(y))
+sparkDF.printSchema()
+sparkDF.show()
 
